@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    
+    <!--Import main.css-->
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+    <!--Inline css-->
+    <style>
+        .item{
+            border: 1px solid white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Grid</h1>
+        <p>Materize css usa como standard un sistema de grillas  12 columnas fluid responsive </p>
+        
+        <h2>Container</h2>        
+        <p>La clase container no es estrictamente parte del grid, pero es importante para mostrar nuestro contenido </p>
+        <p>La clase container configura el width de nuetra ventana a 70%, esto ayda a centrar el contenido de nuestrapágina</p>
+
+        <h2>12 Columns</h2>
+        <p>El estandar que tuliza materialize css usa 12 columnas, no importa el tamaño del brwoser, cada columna tiene el mismo larg</p>
+        <p><b>s1:</b> small-1 significa 1 columna en small screens</p>
+
+        <div class="row">
+            <div class="col s1 red darken-1 item">1</div>
+            <div class="col s1 red darken-1 item">2</div>
+            <div class="col s1 red darken-1 item">3</div>
+            <div class="col s1 red darken-1 item">4</div>
+            <div class="col s1 red darken-1 item">5</div>
+            <div class="col s1 red darken-1 item">6</div>
+            <div class="col s1 red darken-1 item">7</div>
+            <div class="col s1 red darken-1 item">8</div>
+            <div class="col s1 red darken-1 item">9</div>
+            <div class="col s1 red darken-1 item">10</div>
+            <div class="col s1 red darken-1 item">11</div>
+            <div class="col s1 red darken-1 item">12</div>
+        </div>
+
+        <h2>Columnas dentro de rows</h2>
+        <p>Cuando estamos creando un layout, todas las columnas deben estar contenidas dentro de un row y las clases col deben estar dentro de los divs para convertirlos en columnas</p>
+
+        <div class="row">
+            <div class="col s12 item blue darken-1">Este div tiene una longitud de 12 columnas en toda los tamaños de pantallas</div>
+            <div class="col s6 item blue darken-1">6-columnas one-half</div>
+            <div class="col s6 item blue darken-1">6-columnas one-half</div>
+        </div>
+
+    <h2>Offsets</h2>
+</div>
+
+    <!--Import materialize.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    
+    <!--Import main.js-->
+    <script src="main.js"></script>
+            
+</body>
+</html>
