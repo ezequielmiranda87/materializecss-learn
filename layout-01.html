@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    
+    <!--Import main.css-->
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+    <!--Inline css-->
+    <style>
+    .center{
+        text-align: center;
+        vertical-align: middle;
+    }
+    .light{
+        font-weight: 300;
+    }
+
+    .promo{
+        width: 100%;
+    }
+    .promo-example{
+        overflow: hidden;
+    }
+    .promo i {
+        margin: 40px 0;
+        color:#ee6e73;
+        font-size:7rem;
+        display:block
+    }
+    .promo-caption{
+        font-size: 1.7rem;
+        font-weight: 500;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="cotainer">
+        <h1>Creating Layouts</h1>
+        <div class="row">
+            <div class="col s6">
+                <h5>Section</h5>
+                <p>La clase section es usada para simple top and bottom padding. Agregar la clase section a los divs que tienen gran cantidad de contenidos </p>
+            </div>
+            <div class="col s6">
+                <h5>Divider</h5>
+                <p> Dividir es una linea de 1 pixel que ayuda a dividir el contenido. Utilizar divider en el contenido</p>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+        <div class="section">
+            <h5>Section 1</h5>
+            <p>Stuff</p>
+        </div>
+
+        <div class="divider"></div>
+        <div class="section">
+            <h5>Section 2</h5>
+            <p>Stuff</p>
+        </div>
+
+        <div class="divider"></div>
+        <div class="section">
+            <h5>Section 3</h5>
+            <p>stuff</p>
+        </div>
+
+        <div class="section">
+            <h4>Promotion Table</h4>
+            <p>Pra dividir en 3 columnas de igual tamaño, utilizamos sistema 4+4+4</p>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="col s4">
+                    <div class="center promo promo-example">
+                        <i class="material-icons">flash_on</i>
+                        <p class="promo-caption">Speeds up development</p>
+                        <p class="light center">
+                                "We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components."
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col s4">
+                    <div class="center promo promo-example">
+                        <i class="material-icons">group</i>
+                        <p class="promo-caption">User Experience focuse</p>
+                        <p class="light center">
+                                "By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.""
+                        </p>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="center promo promo-example">
+                        <i class="material-icons">settings</i>
+                        <p class="promo-caption">Easy to work with</p>
+                        <p class="light center">
+                                "We have provided detailed documentation as well as specific code examples to help new users get started."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Import materialize.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    
+    <!--Import main.js-->
+    <script src="main.js"></script>
+            
+</body>
+</html>
