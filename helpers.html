@@ -16,7 +16,17 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     
     <!--Inline css-->
-    <style></style>
+    <style>
+    .valign-wrapper{
+        height: 400px;
+        background-color: #ddd
+    }
+
+    .horalign{
+        height: 100px;
+        background-color: #ddd;
+    }
+    </style>
 </head>
 <body>
 <div class="container">
@@ -30,7 +40,11 @@
     <div class="row">
         <div class="col s12">
             <div class="section">
-                <h3>Alignment</h3>
+                <h3>Vertical Alignment</h3>
+                <p>Para alinear el contendio dentro de un div de forma horizontal utilizamos la clases <code>valign-wrapper</code></p>
+                <div class="valign-wrapper">
+                    <h5>This should be vertically aligned</h5>
+                </div>
             </div>
         </div>
     </div>
@@ -39,11 +53,132 @@
     <div class="row">
             <div class="col s12">
                 <div class="section">
-                    <h3>Alignment</h3>
+                    <h3>Text Align</h3>
+                    <p>Para alinear de forma horizontal utilizamos las clases <code>.left-align</code>, <code>right-align</code>, <code>center-align</code> </p>
+
+                    <div class="horalign">
+                        <h5 class="left-align">Left align</h5>
+                    </div>
+                    <div class="horalign">
+                        <h5 class="right-align">Right align</h5>
+                    </div>
+                    <div class="horalign">
+                        <h5 class="center-align">Center Align</h5>
+                    </div>
                 </div>
             </div>
         </div>
-</div>
+        <div class="divider"></div>
+        <div class="col s12">
+            <div class="section">
+                <h3>Quick Float</h3>
+                <p>Para hacer flotante cosas de forma rápida podemos utilizar las clases <code>left</code> y <code>right</code></p>
+                
+
+            </div>
+        </div>
+
+        <div class="divider"></div>
+        <div class="col s12">
+            <div class="section">
+                <h3>Esconder y mostrar contenido</h3>                
+                <p>Existen distintos de tipos de clases para mostrar/esconder contenido en diferentes dispositivos</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Class</th>
+                            <th>Screen Range</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><code>.hide</code></td>
+                        <td>Oculto para todos los dispositivos</td>
+                    </tr>
+                    <tr>
+                        <td><code>.hide-on-small-only</code></td>
+                        <td>Oculto para todos los </td>
+                    </tr>                        
+                    <tr>
+                        <td><code>.hide-on-med-only	</code></td>
+                        <td>Oculto para todos los </td>
+                    </tr>                        
+                    <tr>
+                        <td><code>.hide-on-med-and-down	</code></td>
+                        <td>Oculto para todos los </td>
+                    </tr>                        
+                    <tr>
+                        <td><code>.hide-on-med-and-up	</code></td>
+                        <td>Oculto para todos los </td>
+                    </tr>                                                                                                            
+                    <tr>
+                    <td><code>.hide-on-large-only	</code></td>
+                    <td>Oculto para todos los </td>
+                    </tr>                        
+                    <tr>
+                        <td><code>.show-on-small	</code></td>
+                        <td>Oculto para todos los </td>
+                    </tr>                        
+                    <tr>
+                        <td><code>.show-on-large	</code></td>
+                        <td>Oculto para todos los </td>
+                    </tr>                        
+                    <tr>
+                        <td><code>.show-on-medium-and-up	</code></td>
+                        <td>Oculto para todos los </td>
+                    </tr>          
+                    <tr>
+                        <td><code>.show-on-medium-and-down	</code></td>
+                        <td>Oculto para todos los </td>
+                        </tr>                         
+                    </tbody>
+                </table>
+            </div>
+        </div>    
+
+
+        <div class="divider"></div>
+        <div class="col s12">
+            <div class="section">
+                <h3>Hover</h3>
+                <p>Hoverable es una clase que agrega animacion con sombras a las cajas</p>
+                <div class="card-panel hoverable">Hoverble Card Panel</div>
+
+            </div>
+        </div>
+
+        <div class="divider"></div>
+        <div class="col s12">
+            <div class="section">
+                <h3>Browser Default</h3>
+                <p>La clase browser-default devuelve los objetos sobrescritos a su forma original</p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name of element</th>
+                            <th> Reverted Style</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>UL</td>
+                            <td>Bullet points</td>
+                        </tr>
+                        <tr>
+                             <td>Select</td>
+                            <td>Browser default select element</td>
+                        </tr>
+                        <tr>
+                            <td>INPUT</td>
+                            <td>Browser default input</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
 
     <!--Import materialize.js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
